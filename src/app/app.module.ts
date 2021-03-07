@@ -9,6 +9,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, MatToolbarModule ],
   declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+
 })
 export class AppModule { }
